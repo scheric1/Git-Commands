@@ -1,9 +1,6 @@
 Git Commands
 ============
 
-## Translated Versions
-- [Versão em português](READMEpt.md)
-
 ___
 
 _A list of my commonly used Git commands_
@@ -20,6 +17,14 @@ _A list of my commonly used Git commands_
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 ### Basic Snapshotting
+
+| Command | Description |
+| ------- | ----------- |
+| `git add .` | Get everything ready to commit |
+| `git commit -m "Title" -m "Description..."` | Commit changes with title and description |
+| `git commit -am "Message"` | Add and commit in one step |
+
+### Committing Changes
 
 | Command | Description |
 | ------- | ----------- |
